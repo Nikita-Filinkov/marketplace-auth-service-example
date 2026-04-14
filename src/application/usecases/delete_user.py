@@ -1,4 +1,4 @@
-from src.application.exceptions import UserNotFoundError, DbError
+from src.application.exceptions import DbError, UserNotFoundError
 from src.application.ports.uow import UnitOfWork
 from src.application.ports.usecases import DeleteUserPort
 
